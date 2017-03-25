@@ -63,7 +63,7 @@ public class MainActivityTest extends ScreenshotTest {
 
   @Test
   public void showsOneSuperHero(){
-    givenThereAreSomeSuperHeroes(10, true);
+    givenThereAreSomeSuperHeroes(1, true);
 
     Activity activity = startActivity();
 
